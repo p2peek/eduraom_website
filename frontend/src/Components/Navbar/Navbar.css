@@ -1,0 +1,91 @@
+
+.navOpts{
+    /* display: flex; */
+    display: inline;
+    background-color: blue;
+    width: 100vw;
+    /* display: inline; */
+}
+.navLinks {
+    background-color: #004869;
+    display: flex;
+    width: 100vw;
+    height: 10vh; /* Reduced height */
+    align-items: center; /* Vertically center everything */
+}
+
+.ul {
+    display: flex;
+    gap: 2vw;
+    font-weight: 1000;
+    margin-left: 30vw;
+    color: white;
+    font-size: medium;
+    margin-top: 5vh; /* Remove top margin to center links */
+    align-items: center;
+    /* margin-top: 0; */
+}
+
+.logo {
+    width: 8vw; /* Slightly smaller logo for compact navbar */
+    height: auto;
+    margin-left: 20vw;
+    padding-top: 0; /* Remove top padding */
+    margin-top: 2vh;
+   
+}
+
+.nav-content {
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 100%; /* Match navLinks height */
+}
+
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background-color: white;
+}
+
+.dropdown-menu a {
+  color: #004869;
+  text-decoration: none;
+  font-weight: 500;
+}
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  transition: transform 0.3s ease;
+}
+.dropdown-icon.rotate {
+  transform: rotate(180deg);
+}
