@@ -1,0 +1,30 @@
+.footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: #004869;
+    display: flex;
+}
+.left-footer{
+    display: flex;
+    margin-left: 25vw;
+    gap: 4vw;
+    margin-top: 5vh;
+}
+.links1{
+    /* background-color: aqua; */
+    color: white;
+}
+.links2{
+    /* background-color: black; */
+    color: white;
+}
+.links3{
+    /* background-color: green; */
+    color: white;
+}
+.right-footer{
+    margin-left: 15vw;
+}
+.footer-logo1{
+    margin-bottom: 2vw;
+}

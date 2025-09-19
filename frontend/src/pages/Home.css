@@ -1,14 +1,60 @@
-/* .banner-div{
-  background-color: red;
-  width: 100vw;
-  height: 40vh;
-} */
-
-.banner{
-  width: 100vw;
-  height: 40vh;
-  background-color: red;
-  
+.banner {
+  position: relative;
+  width: 100%;
 }
 
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #004869; /* Dark blue like in screenshot */
+  max-width: 30vw;
+  /* background-color: red; */
+  /* padding-left: 10vw; */
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+
+.banner-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.learn-btn {
+  background: #004869;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.learn-btn:hover {
+  background: #005599;
+}
+
+.banner-txt{
+  width: 30vw;
+  height: 20vh;
+  background-color: red;
+  position: absolute;
+}
+.banner-btn{
+  display: flex;
+  gap: 2vh;
+}

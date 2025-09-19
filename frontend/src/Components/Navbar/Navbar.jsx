@@ -49,7 +49,7 @@ function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <div className="navLinks">
+    <div className="navLinks font">
       <div className="nav-content">
         <div className="nav-div">
           <img src={logo} alt="" className="logo" />

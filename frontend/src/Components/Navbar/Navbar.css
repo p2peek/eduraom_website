@@ -1,4 +1,3 @@
-
 .navOpts{
     /* display: flex; */
     display: inline;
@@ -89,3 +88,4 @@
 .dropdown-icon.rotate {
   transform: rotate(180deg);
 }
+
