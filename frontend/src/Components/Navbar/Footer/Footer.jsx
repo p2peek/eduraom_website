@@ -262,7 +262,7 @@ function Footer() {
 
       </div>
       <div className="bg-[#003851] text-white text-center py-3 text-sm">
-        © AARNet Pty. Ltd. 2025
+        © 2025 eduroam India. All rights reserved.
       </div>
     </div>
 

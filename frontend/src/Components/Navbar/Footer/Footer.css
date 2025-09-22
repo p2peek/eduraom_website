@@ -6,7 +6,7 @@
 }
 .left-footer{
     display: flex;
-    margin-left: 25vw;
+    margin-left: 20vw;
     gap: 4vw;
     margin-top: 5vh;
 }
@@ -23,7 +23,7 @@
     color: white;
 }
 .right-footer{
-    margin-left: 15vw;
+    margin-left: 18vw;
 }
 .footer-logo1{
     margin-bottom: 2vw;
